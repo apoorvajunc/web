@@ -1,0 +1,35 @@
+*{padding: 0; margin: 0;}
+#header{height: 10vh;}
+#header > img{
+  width: 20%; position: fixed; z-index: 10; margin-left: 5%; margin-top: 5%;
+}
+#wrapper{}
+#wrapper > #main > #side{background-color: grey; padding-top: 1%; padding-left: 1%; color: white}
+#wrapper > #main > #side > h1 {font-weight: 100; font-family: sans-serif;}
+#wrapper > #main > #side > h4 {margin: 0; padding: 0;}
+#wrapper > #main > #side > ul {margin-top: 0; padding-top: 0;}
+#wrapper > #main > * {padding-left: 2%; padding-right: 2%}
+#wrapper > #main > p {margin-top: 1%;}
+#content{
+  height: 0vh; z-index: 10; position: relative;
+  background-color: white;
+}
+#content > #navbar{
+  position: fixed; bottom: 0; width: 100%; height: 8%; background-color: rgba(255,255,255,0.9);
+}
+#main{
+  top: 00px; background-color: rgba(255,255,255,0.4); position: relative; z-index: 8;
+  padding-bottom: 10px;
+  text-align: left; font-size: 25; font-family: arial; width: 60%; margin-left: 30%;
+  margin-top: -40px; margin-bottom: 100px; color: black; box-shadow: 2px 2px 5px grey;;
+}
+#main > * {margin-top: 30px;}
+#logo{color: black; font-size: 35px; float: left; margin-top:15px; margin-left:20px;
+  cursor: pointer; font-weight: 100; font-family: sans-serif;}
+#navbar > ul {float: right; width: 700px; list-style: none; margin-top: 2%;}
+#navbar > ul > li{display: inline;}
+#navbar > ul > li > a {color: grey; font-size: 20px; padding: 10px 30px; 
+  text-decoration: none;font-weight: 100; font-family: sans-serif;}
+#navbar > ul > li:hover > a {
+  text-decoration: underline; color: black;
+}
