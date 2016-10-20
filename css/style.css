@@ -8,6 +8,7 @@
 #wrapper > #main > #side > h1 {font-weight: 100; font-family: sans-serif;}
 #wrapper > #main > #side > h4 {margin: 0; padding: 0;}
 #wrapper > #main > #side > ul {margin-top: 0; padding-top: 0;}
+#wrapper > #main > #side > ul > li {margin: 1em 0;}
 #wrapper > #main > * {padding-left: 2%; padding-right: 2%}
 #wrapper > #main > p {margin-top: 1%;}
 #content{
