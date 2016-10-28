@@ -7,6 +7,8 @@
 #wrapper > #main > #side{background-color: grey; padding-top: 1%; padding-left: 1%; color: white}
 #wrapper > #main > #side > h1 {font-weight: 100; font-family: sans-serif;}
 #wrapper > #main > #side > h4 {margin: 0; padding: 0;}
+#wrapper > #main > a {color: rgb(10,10,180);}
+#wrapper > #main > h4 > a {color: rgb(10,10,180);}
 #wrapper > #main > #side > ul {margin-top: 0; padding-top: 0;}
 #wrapper > #main > #side > ul > li {margin: 1em 0;}
 #wrapper > #main > * {padding-left: 2%; padding-right: 2%}
